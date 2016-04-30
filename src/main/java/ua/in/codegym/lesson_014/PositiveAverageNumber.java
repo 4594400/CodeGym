@@ -7,7 +7,6 @@ public class PositiveAverageNumber {
     }
 
     public static int average(int a, int b) {
-        int result =  ((a%2!=0 && b%2!=0) ? (a/2+b/2)+1 : (a/2+b/2));
-        return result;
+        return (a%2!=0 && b%2!=0) ? (a/2+b/2)+1 : (a/2+b/2);
     }
 }
