@@ -3,7 +3,7 @@ package ua.in.codegym.lesson_001;
 
 public class SumDigits {
     public static void main(String[] args) {
-        System.out.println(sum(-256));
+        System.out.println(sum(2356));
     }
 
     public static int sum(int number) {
