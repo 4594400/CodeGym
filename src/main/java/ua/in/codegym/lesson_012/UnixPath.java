@@ -12,7 +12,6 @@ public class UnixPath {
         System.out.println("2 -------------  " + simplify("/var//lib"));
         System.out.println("3 -------------  " + simplify("//"));
         System.out.println("4 -------------  " + simplify("/."));
-
     }
 
     public static String simplify(String input) {
