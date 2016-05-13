@@ -46,7 +46,6 @@ class RectangleSquare {
                 return o1 > o2 ? 1 : (o1 < o2 ? -1 : 0);
             }
         };
-
         X.sort(ascending);
         Y.sort(ascending);
 
