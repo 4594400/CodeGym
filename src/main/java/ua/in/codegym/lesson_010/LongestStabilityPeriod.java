@@ -8,6 +8,7 @@ public class LongestStabilityPeriod {
         System.out.println(count(input));
     }
 
+
     public static int count(int[] gdp) {
         if (gdp.length == 0) return 0;
         if (gdp.length == 1) return 1;
