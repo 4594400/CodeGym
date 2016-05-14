@@ -23,7 +23,7 @@ public class BinaryHeap {
             throw new NoSuchElementException();
         }
         if (items.size() == 1) {
-            items.remove(0);
+            return items.remove(0);
         }
         int hold = items.get(0);
         items.set(0, items.remove(items.size() - 1));

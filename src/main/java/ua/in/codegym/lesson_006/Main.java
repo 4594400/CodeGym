@@ -5,12 +5,10 @@ package ua.in.codegym.lesson_006;
  */
 public class Main {
     public static void main(String[] args) {
-        BinaryHeap binaryHeap = new BinaryHeap(5);
+        BinaryHeap binaryHeap = new BinaryHeap(2);
+        binaryHeap.insert(0);
         binaryHeap.insert(1);
-        binaryHeap.insert(2);
-        binaryHeap.insert(3);
-        binaryHeap.insert(4);
-        binaryHeap.insert(5);
+        binaryHeap.poll();
         binaryHeap.poll();
 
 
