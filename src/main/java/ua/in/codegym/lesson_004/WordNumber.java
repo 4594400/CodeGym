@@ -1,12 +1,9 @@
 package ua.in.codegym.lesson_004;
 
 
-import java.util.*;
-
 public class WordNumber {
     public static void main(String[] args) {
         System.out.println(count("I would go"));
-
     }
 
     public static boolean isLetter(char c){
